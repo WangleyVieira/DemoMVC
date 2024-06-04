@@ -1,8 +1,669 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html class="html" lang="pt-BR" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+	<title>Ágile Tecnologia &amp; Consultoria</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed para  &raquo;" href="https://agile.inf.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para  &raquo;" href="https://agile.inf.br/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/agile.inf.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.17"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://agile.inf.br/wp-includes/css/dist/block-library/style.min.css?ver=5.3.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://agile.inf.br/wp-includes/css/dist/block-library/theme.min.css?ver=5.3.17' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://agile.inf.br/wp-includes/css/dashicons.min.css?ver=5.3.17' type='text/css' media='all' />
+<link rel='stylesheet' id='everest-forms-general-css'  href='https://agile.inf.br/wp-content/plugins/everest-forms/assets/css/everest-forms.css?ver=1.5.10' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://agile.inf.br/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.11.2' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css'  href='https://agile.inf.br/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://agile.inf.br/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://agile.inf.br/wp-content/themes/oceanwp/assets/css/third/slick.min.css?ver=1.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css'  href='https://agile.inf.br/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-google-font-roboto-css'  href='//fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;ver=5.3.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-css'  href='https://agile.inf.br/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-skin-css'  href='https://agile.inf.br/wp-content/plugins/jet-elements/assets/css/jet-elements-skin.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://agile.inf.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://agile.inf.br/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.5.14' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://agile.inf.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.5.14' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://agile.inf.br/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=2.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://agile.inf.br/wp-content/uploads/elementor/css/global.css?ver=1595467596' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-73-css'  href='https://agile.inf.br/wp-content/uploads/elementor/css/post-73.css?ver=1612243061' type='text/css' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css'  href='https://agile.inf.br/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=5.3.17' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.3.17' type='text/css' media='all' />
+<script type='text/javascript' src='https://agile.inf.br/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://agile.inf.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://agile.inf.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://agile.inf.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.17" />
+<meta name="generator" content="Everest Forms 1.5.10" />
+<link rel="canonical" href="https://agile.inf.br/" />
+<link rel='shortlink' href='https://agile.inf.br/' />
+<link rel="alternate" type="application/json+oembed" href="https://agile.inf.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fagile.inf.br%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://agile.inf.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fagile.inf.br%2F&#038;format=xml" />
+<link rel="icon" href="https://agile.inf.br/wp-content/uploads/2019/12/Sem-Título-1rgw3f5r3w-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://agile.inf.br/wp-content/uploads/2019/12/Sem-Título-1rgw3f5r3w-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://agile.inf.br/wp-content/uploads/2019/12/Sem-Título-1rgw3f5r3w-300x300.png" />
+<meta name="msapplication-TileImage" content="https://agile.inf.br/wp-content/uploads/2019/12/Sem-Título-1rgw3f5r3w-300x300.png" />
+		
+		<!-- OceanWP CSS -->
+<style type="text/css">
+/* Header CSS */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:275px}/* Typography CSS */#site-navigation-wrap .dropdown-menu >li >a,#site-header.full_screen-header .fs-dropdown-menu >li >a,#site-header.top-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.center-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{font-family:Roboto;font-size:18px}
+</style>
+
+</head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-73 wp-custom-logo wp-embed-responsive everest-forms-no-js oceanwp-theme sidebar-mobile default-breakpoint has-sidebar content-right-sidebar page-header-disabled elementor-default elementor-template-full-width elementor-page elementor-page-73">
+
+	
+	<div id="outer-wrap" class="site clr">
+
+		
+		<div id="wrap" class="clr">
+
+			
+			
+<header id="site-header" class="minimal-header clr" data-height="74" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+	
+		
+			
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="http://schema.org/Brand">
+
+	
+	<div id="site-logo-inner" class="clr">
+
+		<a href="https://agile.inf.br/" class="custom-logo-link" rel="home"><img width="5200" height="1095" src="https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE.png" class="custom-logo" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE.png 5200w, https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE-300x63.png 300w, https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE-1024x216.png 1024w, https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE-768x162.png 768w, https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE-1536x323.png 1536w, https://agile.inf.br/wp-content/uploads/2019/12/DSBTSCVFTSTRE-2048x431.png 2048w" sizes="(max-width: 5200px) 100vw, 5200px" /></a>
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+			<div id="site-navigation-wrap" class="clr">
+		
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+				<ul id="menu-principal" class="main-menu dropdown-menu sf-menu"><li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-61"><a href="http://agile.inf.br/#main" class="menu-link"><span class="text-wrap">A Empresa</span></a></li><li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><a href="http://agile.inf.br/#servicos" class="menu-link"><span class="text-wrap">Serviços</span></a></li><li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-67"><a href="http://agile.inf.br/#clientes" class="menu-link"><span class="text-wrap">Clientes</span></a></li><li id="menu-item-66" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-66"><a href="http://agile.inf.br/#contato" class="menu-link"><span class="text-wrap">Contato</span></a></li><li class="search-toggle-li"><a href="#" class="site-search-toggle search-dropdown-toggle"><span class="icon-magnifier"></span></a></li></ul>
+<div id="searchform-dropdown" class="header-searchform-wrap clr">
+	
+<form method="get" class="searchform" id="searchform" action="https://agile.inf.br/">
+	<input type="text" class="field" name="s" id="s" placeholder="Pesquisa">
+		</form></div><!-- #searchform-dropdown -->
+			</nav><!-- #site-navigation -->
+
+			
+			
+					</div><!-- #site-navigation-wrap -->
+		
+		
+	
+				
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="#" class="mobile-menu">
+							<i class="fa fa-bars"></i>
+							<span class="oceanwp-text">Menu</span>
+
+						</a>
+
+		
+		
+		
+	</div><!-- #oceanwp-mobile-menu-navbar -->
+
+
+			</div><!-- #site-header-inner -->
+
+			
+			
+		
+				
+	
+</header><!-- #site-header -->
+
+
+						
+			<main id="main" class="site-main clr" >
+
+						<div data-elementor-type="post" data-elementor-id="73" class="elementor elementor-73" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-f0d062f elementor-section-stretched elementor-section-full_width elementor-section-height-full elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="f0d062f" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4366f28 elementor-column elementor-col-100 elementor-top-column" data-id="4366f28" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-877c277 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="877c277" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2f17e20 elementor-column elementor-col-100 elementor-top-column" data-id="2f17e20" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c7351b9 elementor-widget elementor-widget-heading" data-id="c7351b9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-large">Sistemas de Gestão</h1>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-711ae92 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="711ae92" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-93bade6 elementor-column elementor-col-25 elementor-top-column" data-id="93bade6" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-fca560f elementor-column elementor-col-25 elementor-top-column" data-id="fca560f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4b15be9 elementor-widget elementor-widget-image" data-id="4b15be9" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="1000" src="https://agile.inf.br/wp-content/uploads/2020/07/HABITACIONAL1.png" class="elementor-animation-shrink attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2020/07/HABITACIONAL1.png 1000w, https://agile.inf.br/wp-content/uploads/2020/07/HABITACIONAL1-300x300.png 300w, https://agile.inf.br/wp-content/uploads/2020/07/HABITACIONAL1-150x150.png 150w, https://agile.inf.br/wp-content/uploads/2020/07/HABITACIONAL1-768x768.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-88f873c elementor-column elementor-col-25 elementor-top-column" data-id="88f873c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-315ed2e elementor-widget elementor-widget-image" data-id="315ed2e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="1000" src="https://agile.inf.br/wp-content/uploads/2020/07/agropecuaria2.png" class="elementor-animation-shrink attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2020/07/agropecuaria2.png 1000w, https://agile.inf.br/wp-content/uploads/2020/07/agropecuaria2-300x300.png 300w, https://agile.inf.br/wp-content/uploads/2020/07/agropecuaria2-150x150.png 150w, https://agile.inf.br/wp-content/uploads/2020/07/agropecuaria2-768x768.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-689a723 elementor-column elementor-col-25 elementor-top-column" data-id="689a723" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-408df78 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="408df78" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-0e14e18 elementor-column elementor-col-20 elementor-top-column" data-id="0e14e18" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-87651b9 elementor-column elementor-col-20 elementor-top-column" data-id="87651b9" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-4ca5178 elementor-column elementor-col-20 elementor-top-column" data-id="4ca5178" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-c5d9721 elementor-column elementor-col-20 elementor-top-column" data-id="c5d9721" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-452efb9 elementor-column elementor-col-20 elementor-top-column" data-id="452efb9" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-172fced elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="172fced" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-dd9c824 elementor-column elementor-col-50 elementor-top-column" data-id="dd9c824" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-31227f1 elementor-widget elementor-widget-image" data-id="31227f1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-300x300.png" class="attachment-medium size-medium" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-300x300.png 300w, https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-1024x1024.png 1024w, https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-150x150.png 150w, https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-768x768.png 768w, https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-1536x1536.png 1536w, https://agile.inf.br/wp-content/uploads/2019/12/Prancheta-1logo-advice-2-2048x2048.png 2048w" sizes="(max-width: 300px) 100vw, 300px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-a6a5fdb elementor-column elementor-col-50 elementor-top-column" data-id="a6a5fdb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-adef0a3 elementor-widget elementor-widget-text-editor" data-id="adef0a3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: justify;">Parceria com a Advice Digital, empresa com foco no mercado da comunicação. Com energia para seguir novos caminhos do conhecimento e oferecer serviços inteligentes e inovadores. Criada em 2013 com objetivo de ser uma agência focada em assessoria política, atuando com propostas integradas e bons resultados. Sua fundadora com mais de vinte anos de carreira no ramo de assessoria política, endomarketing, estratégica política e consultoria. Atualmente a ADVICE se dirige a empresas que querem crescer no mercado e com o seu público.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-dc51497 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="dc51497" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f00a282 elementor-column elementor-col-100 elementor-top-column" data-id="f00a282" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f1a807b elementor-widget elementor-widget-heading" data-id="f1a807b" data-element_type="widget" id="servicos" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-large">Serviços</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b7131f3 elementor-widget elementor-widget-text-editor" data-id="b7131f3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: justify;">A empresa tem como alvo principal o desenvolvimento de ferramentas, métodos e serviços para facilitar e melhorar o gerenciamento de atividades das empresas de pequeno e médio porte. Tem atuação no segmento público e privado em diversos setores (prefeituras, escolas, corretoras, indústria). O preceito fundamental é a redução do tempo na resolução de problemas com aplicação de técnicas modernas de gerenciamento a distância e em tempo real.</p></div>
+				</div>
+				</div>
+				<section class="elementor-element elementor-element-fe7a62d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="fe7a62d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-309a422 elementor-column elementor-col-50 elementor-inner-column" data-id="309a422" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d8be464 elementor-widget elementor-widget-text-editor" data-id="d8be464" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><strong><span style="text-decoration: underline;">Sistemas</span></strong></p><ul><li>Gestão Habitacional</li><li>Diario Oficial</li><li>Gestão Legislativa</li><li>Gestão de Assistencia Social</li></ul></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-c91b200 elementor-column elementor-col-50 elementor-inner-column" data-id="c91b200" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8e18333 elementor-widget elementor-widget-text-editor" data-id="8e18333" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><strong><span style="text-decoration: underline;">Tecnologia da Informação</span></strong></p><ul><li>Consultoria de T.I</li><li>Gestão da Informação</li><li>Suporte Técnico</li><li>Soluções personalizadas</li></ul></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6c62ac8 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6c62ac8" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-153ec14 elementor-column elementor-col-100 elementor-top-column" data-id="153ec14" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9cdf77c elementor-widget elementor-widget-heading" data-id="9cdf77c" data-element_type="widget" id="clientes" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-large">Clientes</h1>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-317e81e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="317e81e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-869bf25 elementor-column elementor-col-25 elementor-top-column" data-id="869bf25" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1dd25bf elementor-widget elementor-widget-image" data-id="1dd25bf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/INSS-1.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/INSS-1.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/INSS-1-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/INSS-1-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-7c8f292 elementor-column elementor-col-25 elementor-top-column" data-id="7c8f292" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3685292 elementor-widget elementor-widget-image" data-id="3685292" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/RIO-BRILHANTE.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/RIO-BRILHANTE.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/RIO-BRILHANTE-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/RIO-BRILHANTE-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-58a90b4 elementor-column elementor-col-25 elementor-top-column" data-id="58a90b4" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8d330c3 elementor-widget elementor-widget-image" data-id="8d330c3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/MUNDO-NOVO-2.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/MUNDO-NOVO-2.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/MUNDO-NOVO-2-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/MUNDO-NOVO-2-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-9d3e1f7 elementor-column elementor-col-25 elementor-top-column" data-id="9d3e1f7" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8ca7e4a elementor-widget elementor-widget-image" data-id="8ca7e4a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/NOVO-HORIZONTE.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/NOVO-HORIZONTE.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/NOVO-HORIZONTE-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/NOVO-HORIZONTE-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-831545a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="831545a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-010b2d5 elementor-column elementor-col-25 elementor-top-column" data-id="010b2d5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-acf07ac elementor-widget elementor-widget-image" data-id="acf07ac" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/MRTELE.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/MRTELE.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/MRTELE-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/MRTELE-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-f536218 elementor-column elementor-col-25 elementor-top-column" data-id="f536218" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-042f305 elementor-widget elementor-widget-image" data-id="042f305" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/PRO-RUARAL-AGROPECUARIA.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/PRO-RUARAL-AGROPECUARIA.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/PRO-RUARAL-AGROPECUARIA-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/PRO-RUARAL-AGROPECUARIA-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-9eae3ed elementor-column elementor-col-25 elementor-top-column" data-id="9eae3ed" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8747942 elementor-widget elementor-widget-image" data-id="8747942" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/RIGONAL-1.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/RIGONAL-1.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/RIGONAL-1-300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/RIGONAL-1-768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-cde59d4 elementor-column elementor-col-25 elementor-top-column" data-id="cde59d4" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-95a4370 elementor-widget elementor-widget-image" data-id="95a4370" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="700" src="https://agile.inf.br/wp-content/uploads/2019/12/JS-ASSESSORIA-.jpg" class="attachment-large size-large" alt="" srcset="https://agile.inf.br/wp-content/uploads/2019/12/JS-ASSESSORIA-.jpg 1000w, https://agile.inf.br/wp-content/uploads/2019/12/JS-ASSESSORIA--300x210.jpg 300w, https://agile.inf.br/wp-content/uploads/2019/12/JS-ASSESSORIA--768x538.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-a57f9e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a57f9e0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c1b5260 elementor-column elementor-col-25 elementor-top-column" data-id="c1b5260" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-6cb78da elementor-column elementor-col-25 elementor-top-column" data-id="6cb78da" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-44e8d21 elementor-column elementor-col-25 elementor-top-column" data-id="44e8d21" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-9286b9c elementor-column elementor-col-25 elementor-top-column" data-id="9286b9c" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3e15dab elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3e15dab" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b547ac9 elementor-column elementor-col-100 elementor-top-column" data-id="b547ac9" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1f5740c elementor-widget elementor-widget-heading" data-id="1f5740c" data-element_type="widget" id="contato" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-large">Contato</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-43ba3f9 elementor-widget elementor-widget-shortcode" data-id="43ba3f9" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><div class="everest-forms"><div class="evf-container default" id="evf-43"><form id="evf-form-43" class="everest-form" data-formid="43" method="post" enctype="multipart/form-data" action="/"><div class="evf-field-container"><input type="hidden" id="_wpnonce" name="_wpnonce" value="c620996fc4" /><input type="hidden" name="_wp_http_referer" value="/" /><div class="evf-frontend-row" data-row="row_1"><div class="evf-frontend-grid evf-grid-2" data-grid="grid_1"><div id="evf-43-field_fullname-container" class="evf-field evf-field-text form-row validate-required" data-field-id="fullname"><label class="evf-field-label" for="evf-43-field_fullname"><span class="evf-label">Nome</span> <abbr class="required" title="Required">*</abbr></label><input type="text" id="evf-43-field_fullname" class="input-text" name="everest_forms[form_fields][fullname]" required></div><div id="evf-43-field_email-container" class="evf-field evf-field-email form-row validate-required validate-email" data-field-id="email"><label class="evf-field-label" for="evf-43-field_email"><span class="evf-label">Email</span> <abbr class="required" title="Required">*</abbr></label><input type="email" id="evf-43-field_email" class="input-text" name="everest_forms[form_fields][email]" required></div><div id="evf-43-field_subject-container" class="evf-field evf-field-text form-row validate-required" data-field-id="subject"><label class="evf-field-label" for="evf-43-field_subject"><span class="evf-label">Assunto</span> <abbr class="required" title="Required">*</abbr></label><input type="text" id="evf-43-field_subject" class="input-text" name="everest_forms[form_fields][subject]" required></div></div><div class="evf-frontend-grid evf-grid-2" data-grid="grid_2"><div id="evf-43-field_message-container" class="evf-field evf-field-textarea form-row" data-field-id="message"><label class="evf-field-label" for="evf-43-field_message"><span class="evf-label">Mensagem</span> </label><textarea id="evf-43-field_message" class="input-text" name="everest_forms[form_fields][message]" ></textarea></div></div></div></div><div class="evf-honeypot-container evf-field-hp"><label for="evf-43-field-hp" class="evf-field-label">Phone</label><input type="text" name="everest_forms[hp]" id="evf-43-field-hp" class="input-text"></div><div class="evf-recaptcha-container " ><div class="g-recaptcha" data-sitekey="6Lep2jcaAAAAAI-AW3chYiqQD7ofBoL8N_P87XU6"></div><input type="text" name="g-recaptcha-hidden" class="evf-recaptcha-hidden" style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;" required></div><div class="evf-submit-container " ><input type="hidden" name="everest_forms[id]" value="43"><input type="hidden" name="everest_forms[author]" value="1"><input type="hidden" name="everest_forms[post_id]" value="73"><button type='submit' name='everest_forms[submit]' class='everest-forms-submit-button button evf-submit ' id='evf-submit-43' value='evf-submit' data-process-text=" Em processamento…" conditional_rules='""' conditional_id='evf-submit-43' >Enviar</button></div></form></div><!-- .evf-container --></div></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-8b43651 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8b43651" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a4aa967 elementor-column elementor-col-100 elementor-top-column" data-id="a4aa967" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-448466d elementor-widget elementor-widget-google_maps" data-id="448466d" data-element_type="widget" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Agile%20tecnologia%20e%20Consultoria&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="Agile tecnologia e Consultoria"></iframe></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+        </main><!-- #main -->
+
+        
+        
+        
+            
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+
+    
+    <div id="footer-inner" class="clr">
+
+        
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+        			<div class="footer-box span_1_of_4 col col-1">
+							</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_4 col col-2">
+									</div><!-- .footer-one-box -->
+						
+							<div class="footer-box span_1_of_4 col col-3 ">
+									</div><!-- .footer-one-box -->
+			
+							<div class="footer-box span_1_of_4 col col-4">
+									</div><!-- .footer-box -->
+			
+		
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				 © Ágile Tecnologia &amp; Consultoria - Todos os direitos reservados			</div><!-- #copyright -->
+
+		
+	</div><!-- #footer-bottom-inner -->
+
+	
+</div><!-- #footer-bottom -->
+
+        
+    </div><!-- #footer-inner -->
+
+    
+</footer><!-- #footer -->            
+        
+                        
+    </div><!-- #wrap -->
+
+    
+</div><!-- #outer-wrap -->
+
+
+
+<a id="scroll-top" class="scroll-top-right" href="#"><span class="fa fa-angle-up"></span></a>
+
+
+<div id="sidr-close">
+	<a href="#" class="toggle-sidr-close">
+		<i class="icon icon-close"></i><span class="close-text">Fechar Menu</span>
+	</a>
 </div>
+    
+    
+
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace( /everest-forms-no-js/, 'everest-forms-js' );
+		document.body.className = c;
+	</script>
+	<script type='text/javascript' src='https://agile.inf.br/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/themes/oceanwp/assets/js/third/magnific-popup.min.js?ver=1.7.3'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/themes/oceanwp/assets/js/third/lightbox.min.js?ver=1.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var oceanwpLocalize = {"isRTL":"","menuSearchStyle":"drop_down","sidrSource":"#sidr-close, #site-navigation","sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"icon","verticalHeaderTarget":"icon","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"https:\/\/agile.inf.br\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/themes/oceanwp/assets/js/main.min.js?ver=1.7.3'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-includes/js/wp-embed.min.js?ver=5.3.17'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/themes/oceanwp/assets/js//third/html5.min.js?ver=1.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/everest-forms/assets/js/inputmask/jquery.inputmask.bundle.min.js?ver=4.0.0-beta.58'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/everest-forms/assets/js/jquery-validate/jquery.validate.min.js?ver=1.17.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var everest_forms_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","disable_user_details":"no","everest_forms_data_save":"02eed5bfdd","i18n_messages_required":"Este campo \u00e9 obrigat\u00f3rio.","i18n_messages_url":"Por favor, insira um URL v\u00e1lido.","i18n_messages_email":"Por favor insira um endere\u00e7o de e-mail v\u00e1lido.","i18n_messages_email_suggestion":"Voc\u00ea quis dizer {sugest\u00e3o}?","i18n_messages_email_suggestion_title":"Click to accept this suggestion.","i18n_messages_number":"Por favor insira um n\u00famero v\u00e1lido.","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/everest-forms/assets/js/frontend/everest-forms.min.js?ver=1.5.10'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/everest-forms/assets/js/mailcheck/mailcheck.min.js?ver=1.1.2'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=EVFRecaptchaLoad&#038;render=explicit&#038;ver=2.0.0'></script>
+<script type='text/javascript'>
+var EVFRecaptchaLoad = function(){jQuery(".g-recaptcha").each(function(index, el){grecaptcha.render(el,{callback:function(){EVFRecaptchaCallback(el);}},true);});};var EVFRecaptchaCallback = function(el){jQuery(el).parent().find(".evf-recaptcha-hidden").val("1").valid();};
+</script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.5.14'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=2.5.8'></script>
+<script type='text/javascript'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/agile.inf.br\/wp-admin\/admin-ajax.php","nonce":"3a45a9836c","shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_BR","app_id":""}};
+</script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=2.5.8'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.1'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=4.4.6'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.5.14","urls":{"assets":"https:\/\/agile.inf.br\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":73,"title":"Home","excerpt":""}};
+</script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.5.14'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"https:\/\/agile.inf.br\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/agile.inf.br\/wp-json\/jet-elements-api\/v1\/elementor-template","devMode":"false","messages":{"invalidMail":"Please specify a valid e-mail"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://agile.inf.br/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.3.0'></script>
+</body>
+</html>
